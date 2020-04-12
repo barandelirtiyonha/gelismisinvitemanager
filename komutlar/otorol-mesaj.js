@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
     return message.channel.send(
       new Discord.RichEmbed()
         .setDescription(
-          `Lütfen bir mesaj belirtiniz!\n\nDeğişkenler:\n-uye- = Üyenin adını atar.\n-uyetag- = Üyeyi taglar.\n-sunucu- = Sunucu adını atar.\n-rol- = Rolü etiketler.`
+          `Lütfen bir mesaj belirtiniz!`
         )
         .setColor("BLACK")
       .setFooter(bot.user.username, bot.user.avatarURL)

@@ -16,7 +16,7 @@ module.exports.run = async (bot, message, args) => {
     return message.channel.send(
       new Discord.RichEmbed()
         .setDescription(
-          `Lütfen bir isim belirtiniz!\n\nDeğişkenler:\n-uye- = Üyenin adını yazar.\n-tag- = Tagı ekler.`
+          `Lütfen bir isim belirtiniz!`
         )
         .setColor("BLACK")
     );

@@ -15,11 +15,11 @@ exports.run = async (bot, message, args, tools) => {
     )
     .addField(
       `Moderasyon`,
-      `\`ban\`, \`kick\`, \`kanal-kilit\`, \`unban\`, \`mute\`, \`takma-ad\`, \`rol-al\`, \`rol-ver\`, \`reklam-taraması\`, \`slowmode\`, \`temizle\``
+      `\`ban\`, \`kick\`, \`kanal-kilit\`, \`unban\`, \`mute\`, \`takma-ad\`, \`yavaş-mod\`, \`temizle\``
     )
     .addField(
       `Sistem`,
-      `\`otorol\`, \`otorol-sıfırla\`, \`otorol-mesaj\`, \`otorol-mesaj-sıfırla\`, \`sayaç\`, \`sayaç-sıfırla\`, \`sayaç-mesaj-hg\`, \`sayaç-mesaj-bb\`, \`sayaç-mesaj-sıfırla\`, \`ever-engel\`, \`sa-as\`, \`reklam-engel\`, \`ototag\`, \`ototag-isim\`, \`ototag-sıfırla\`, \`hg-bb\``
+      `\`otorol\`, \`otorol-sıfırla\`, \`otorol-mesaj\`, \`otorol-mesaj-sıfırla\`, \`sayaç\`, \`sayaç-sıfırla\`, \`sayaç-mesaj-hg\`, \`sayaç-mesaj-bb\`, \`ever-engel\`, \`sa-as\`, \`ototag\`, \`ototag-isim\`, \`ototag-sıfırla\`, \`hg-bb\``
     )
     .addField(
       `Sistem2`,

@@ -17,7 +17,7 @@ module.exports.run = async (bot, message, args) => {
   if (!hedef) {
     return message.channel.send(
       new Discord.RichEmbed()
-        .setDescription(`Lütfen bir hedef belirtiniz!`)
+        .setDescription(`Lütfen bir hedef ve Kanal belirtiniz!`)
       .setFooter(bot.user.username, bot.user.avatarURL)
         .setColor("BLACK")
     );
