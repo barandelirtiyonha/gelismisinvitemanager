@@ -9,12 +9,10 @@ exports.run = async (bot, message, args, tools) => {
       `Davetler`,
       `\`davet-kanal\`, \`davet-kanal-sıfırla\`, \`davet-ekle\`, \`davet-sıfırla\`, \`davet-sil\`, \`davet-stokla\`, \`davetlerim\`, \`davet-oluştur\``
     )
-    .addField(`Rütbeler`, `\`rütbe-ekle\`, \`rütbe-sil\`, \`rütbe-liste\``)
     .addField(
       `Bot`,
-      `\`bot-bilgi\`, \`yapımcılar\`, \`davet\`, \`yardım\`, \`üye-durum\`, \`ping\`, \`prefix\`, \`prefix-sıfırla\`, \`destek-sunucu\``
+      `\`bot-bilgi\`, \`yapımcılar\`, \`davet\`, \`üye-durum\`, \`ping\``
     )
-    .addField(`Premium`, `\`pre-günlük\`, \`pre-puan\`, \`pre-market\``)
     .addField(
       `Moderasyon`,
       `\`ban\`, \`kick\`, \`kanal-kilit\`, \`unban\`, \`mute\`, \`takma-ad\`, \`rol-al\`, \`rol-ver\`, \`reklam-taraması\`, \`slowmode\`, \`temizle\``

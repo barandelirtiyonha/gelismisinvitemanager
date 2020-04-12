@@ -26,9 +26,9 @@ module.exports.run = async (bot, message) => {
       true
     )
     .addField(`Bu Sunucu Premium Mu?`, pre, false)
-    .addField(`Destek Sunucusu`, `http://bit.ly/davetyöneticisidestek`, false)
-    .addField(`Botu Ekleyin`, `http://bit.ly/davetyöneticisiekle`, false)
-  .addField(`Bota Oy Verin`, `http://bit.ly/davetyöneticisioy`, false)
+    .addField(`Destek Sunucusu`, `https://discord.gg/Z2zuGCR`, false)
+    .addField(`Botu Ekleyin`, `Yakında`, false)
+  .addField(`Bota Oy Verin`, `Yakında`, false)
     .setFooter(bot.user.username, bot.user.avatarURL);
   message.channel.send(embed);
 };
