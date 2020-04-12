@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 const db = require("quick.db");
 
 exports.run = async (client, message, args) => {
-  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "!";
+  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "?";
   if (!message.member.hasPermission("BAN_MEMBERS")) {
     const embed = new Discord.RichEmbed()
       .setDescription(`Ne yazık ki bu komutu kullanmaya yetkin yok.`)

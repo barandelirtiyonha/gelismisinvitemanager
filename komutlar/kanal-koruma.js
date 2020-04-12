@@ -2,7 +2,7 @@ const db = require("quick.db");
 const Discord = require("discord.js");
 
 exports.run = async (client, message, args) => {
-  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "!";
+  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "?";
 let kanal = message.mentions.channels.first()
 if(!kanal){
   const embed = new Discord.RichEmbed()
