@@ -2,7 +2,7 @@ const Discord = require("discord.js"),
   db = require("quick.db");
 
 exports.run = async (bot, message, args, tools) => {
-  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "!";
+  let prefix = (await db.fetch(`prefix_${message.guild.id}`)) || "?";
   const embed = new Discord.RichEmbed()
     .setDescription(`Bot sürümü; **v0.1**, Prefix: **${prefix}**, Dil: **tr**`)
     .addField(
