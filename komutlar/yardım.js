@@ -11,7 +11,7 @@ exports.run = async (bot, message, args, tools) => {
     )
     .addField(
       `Bot`,
-      `\`bot-bilgi\`, \`yapımcılar\`, \`davet\`, \`üye-durum\`, \`ping\``
+      `\`bot-bilgi\`, \`yapımcılar\`, \`davet\`, \`üye-durum\`, \`ping\`,\`avatar\`,\`top20\``
     )
     .addField(
       `Moderasyon`,
@@ -19,11 +19,11 @@ exports.run = async (bot, message, args, tools) => {
     )
     .addField(
       `Sistem`,
-      `\`otorol\`, \`otorol-sıfırla\`, \`otorol-mesaj\`, \`otorol-mesaj-sıfırla\`, \`sayaç\`, \`sayaç-sıfırla\`, \`sayaç-mesaj-hg\`, \`sayaç-mesaj-bb\`, \`ever-engel\`, \`sa-as\`, \`ototag\`, \`ototag-isim\`, \`ototag-sıfırla\`, \`hg-bb\``
+      `\`otorol\`, \`otorol-sıfırla\`, \`otorol-mesaj\`, \`otorol-mesaj-sıfırla\`, \`sayaç\`, \`sayaç-sıfırla\`, \`sayaç-mesaj-hg\`, \`sayaç-mesaj-bb\`, \`ever-engel\`, \`sa-as\`, \`ototag\`, \`ototag-isim\`, \`oto-tag-sıfırla\`, \`hg-bb\``
     )
     .addField(
       `Sistem2`,
-      `\`rol-koruma\`, \`rol-koruma-sıfırla\`, \`kanal-koruma\`, \`kanal-koruma-sıfırla\``
+      `\`kanal-koruma\`, \`kanal-koruma-sıfırla\``
     )
 
     .setColor("BLACK")
